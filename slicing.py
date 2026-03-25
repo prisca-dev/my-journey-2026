@@ -1,5 +1,5 @@
-# print("*"*50)
-# print("String Extraction Method")
+print("*"*50)
+print("String Extraction Method").upper()
 
 # email = input("Enter Email: ")
 # print(email is not None and email !="")

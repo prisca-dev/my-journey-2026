@@ -16,4 +16,4 @@ user email not empty, contains '@' in email and email.ends with '.com' = {email 
 
 username is a stringtype and is not None and longer than 5 character = {isinstance(username,str)and username is not None and len(username)>5}
 
-User is either admin or moderator and either not banned or verified email = {(role in ['admin','moderator']and not is_banned or email) .endswith(verified)}  """)
+User is either admin or moderator and either not banned or verified email = {role in ['admin','moderator']and not is_banned or email .endswith(verified)}  """)

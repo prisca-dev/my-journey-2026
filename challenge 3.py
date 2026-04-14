@@ -14,5 +14,5 @@ email = "yomi@yahoo.com"
 
 print("@" in email)
 print("@" in email)
-
+''
 

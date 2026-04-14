@@ -1,5 +1,5 @@
-print("*"*50)
-print("String Extraction Method").upper()
+# print("*"*50)
+# print(tring Extraction Method.)
 
 # email = input("Enter Email: ")
 # print(email is not None and email !="")

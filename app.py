@@ -91,20 +91,50 @@
 # print(empty)
 # print(lst)
 # print(type(empty))
-import statistics as s
-raph = list(range(1,40,5))
-print(max(raph))
-print(min(raph))
-print(sum(raph))
-print(s.mean(raph))
-print(s.median(raph))
+# import statistics as s
+# raph = list(range(1,40,5))
+# print(max(raph))
+# print(min(raph))
+# print(sum(raph))
+# print(s.mean(raph))
+# print(s.median(raph))
 
-animals =['gorilla','lizard']
-animals.append('goat')
-animals.append('tiger')
-animals.insert(0,'lion')
-print(animals)
-animals[2]= 'python'
-print(animals)
-animals.pop(3)
-print(animals)
+# animals =['gorilla','lizard']
+# animals.append('goat')
+# animals.append('tiger')
+# animals.insert(0,'lion')
+# print(animals)
+# animals[2]= 'python'
+# print(animals)
+# animals.pop(3)
+# print(animals)
+
+# def createAvater(query,default):
+#     question = input(f"{query}?")
+#     if question == '':
+#         print(f"you chose {default}")
+#     else:
+#         print(f"you chose {question}")
+
+# eyes = createAvater ("What is the colour of your eyes","BROWN")
+# hair = createAvater ("What is the length of your hair","lONG")
+# height = createAvater ("What is your height","TALL")
+# gender = createAvater ("What gender are you","MALE")
+# nationality = createAvater ("What is your nationaility","GHANIAN")
+# def greet(name,greeting,emoji):
+#     print(f"{greeting}, {name}, {emoji.upper()}")
+# greet(name='prisca',greeting ="What's up",emoji = 'wink')
+# def add_nums(*args):
+#     print(sum(args))
+# add_nums(12,9)
+# add_nums(12,11,13)
+# add_nums(100,200,11,13,6)
+# def user_profile(**kwargs):
+#     print(kwargs)
+#     print(type(kwargs))
+# user_profile(name="Jamiu", gender="Male", occupation="Backend")
+# user_profile(name="Priscillia" ,occupation="nurse")
+# students = {'name':'John', 'age':20,  'Country':'Germany'}
+# students2 = ('Mary','Ola','Anne')
+# print(len(students))
+# print(len(students2))
